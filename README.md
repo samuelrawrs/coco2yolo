@@ -25,6 +25,8 @@ root directory in ultralytics. It might look something like this:
 path: ../datasets/<your-dataset-name>  # dataset root dir
 ```
 
+After creating your dataset, you need to zip it and then you can upload it to the [ultralytics hub](https://hub.ultralytics.com/datasets).
+
 
 ## COCO Format (Input)
 
@@ -64,6 +66,3 @@ path: ../datasets/<your-dataset-name>  # dataset root dir
         ├── <image5>.txt
         └── <image6>.txt
 ```
-
-## Credits
-Not gonna lie, I needed a bunch of ChatGPT's help with this one...
